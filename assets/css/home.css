@@ -1,0 +1,127 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: red ;
+    height: 100vh;
+    width: 100vw;
+    /* overflow-x: hidden/ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+}
+
+.head{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+color: white;
+padding: 0 40px;
+}
+.head img{
+    height: 100px;
+    width: 10%;
+    }
+    ul{
+        height: 100px;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .content{
+        height: 83%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 50px;
+        color: red;
+    
+    }
+    .content h1{
+        text-align: center;
+    }
+    .content h5{
+        color: rgb(5, 79, 206);
+        text-align: justify;
+        transition: 1s;
+    }
+.product{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(248, 241, 241);
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}.product img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.product button{
+    height: 30px;
+    width: 80px; 
+    background-color:red;
+    color: white;
+    border-radius: 16px;
+    align-items: center;
+    padding: 5px;
+    margin: 0px 100px;
+}
+
+
+.product:hover{
+    background-color: rgb(104, 251, 251);
+    /* color: rgb(165, 11, 11); */
+}
+.product:hover h5{
+    /* background-color: aqua; */
+    color: rgb(0, 54, 27);
+}
+.head ul li {
+    padding: 5px;
+border-radius: 5px;
+transition: 0.3s;
+}
+.head li:hover {
+    color: rgb(53, 16, 183);
+background-color: antiquewhite;
+}
+
+button:hover{
+    background-color: black;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
